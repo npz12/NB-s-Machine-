@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NB's Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon"/>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="title">
+            <h1>NB's Machine</h1>
+        </div>
+        <br><br>
+        <div class="actions">
+            <div class="convert">
+                <h3>Em qual formato o valor está?</h3>
+                <select name="Tipo" id="options" autofocus>
+                    <option value="binario">Binário</option>
+                    <option value="dicimal">Decimal</option>
+                    <option value="octal">octal</option>
+                    <option value="hexadecimal">Hexadecimal</option>
+                </select>
+                <input id="demo1" type="text" placeholder="Insira o valor" onkeyup="converter()">
+
+                <br><br>
+            </div>
+            <div class="converted">
+                <div class="iptselect">
+                    <h3>converter para:</h3>
+                    <input class="iptcheck" onclick="aparecer_bin()" type="checkbox"><b>Binário</b>
+                    <input class="iptcheck" onclick="aparecer_dec()" type="checkbox"><b>Decimal</b>
+                    <input id="checkbox2" class="iptcheck" onclick="aparecer_octal()" type="checkbox"><b>Octal</b>
+                    <input class="iptcheck" onclick="aparecer_hexa()" type="checkbox"><b>Hexadecimal</b>
+
+                </div>
+                <br>
+                <div id="demo2"></div>
+
+
+                <br><br>
+
+
+                <br>
+                <div id="demo3">
+
+                </div>
+
+                <br><br>
+
+
+                <br>
+                <div id="demo4">
+
+                </div>
+
+
+
+                <br><br>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
